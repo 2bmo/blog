@@ -1,0 +1,344 @@
+/*
+#f97e76 - red
+#e9f0f4 - light grey (bg)
+#c1cfd9 - dark grey
+#2e3641 - dark
+#a8bd44 - green
+#fafcfd - hover bg
+*/
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    background: #e9f0f4;
+    font: 400 14px "Asap", sans-serif;
+    line-height: 1;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+::-webkit-input-placeholder {
+    color:#dae4eb;
+    font: 700 1.2rem "Asap", sans-serif;
+    vertical-align: middle;
+}
+::-moz-placeholder {
+    color:#dae4eb;
+    font: 700 1.2rem "Asap", sans-serif;
+    vertical-align: middle;
+}
+:-moz-placeholder {
+    color:#dae4eb;
+    font: 700 1.2rem "Asap", sans-serif;
+    vertical-align: middle;
+}
+:-ms-input-placeholder {
+    color:#dae4eb;
+    font: 700 1.2rem "Asap", sans-serif;
+    vertical-align: middle;
+}
+.inp {
+    line-height: 2.2;
+    box-shadow: inset 1px 1px 5px -1px #e7e7e7;
+    -webkit-box-shadow: inset 1px 1px 5px -1px #e7e7e7;
+    -moz-box-shadow: inset 1px 1px 5px -1px #e7e7e7;
+    -o-box-shadow: inset 1px 1px 5px -1px #e7e7e7;
+    border: 1px solid #dae4eb;
+    border-radius: 2%;
+    background: #FFF;
+    padding-left: 2%;
+    margin-right: 2%;
+    text-align: left;
+}
+.button {
+    border: none;
+    padding: 1% 5%;
+    font: 700 1rem "Asap";
+    color: #FFF;
+    cursor: pointer;
+}
+.red {
+    background: #f97e76;
+}
+.green {
+    background: #a8bd44;
+}
+.grey {
+    background: #c1cfd9;
+}
+.check {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.rel {
+    position: relative;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.row div {
+    float: left;
+}
+.o-flow {
+    overflow: auto;
+}
+.flexy {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+h1 {
+    color: #e9f0f4;
+    background: #2e3641;
+    font-size: 2rem;
+    line-height: 2;
+    padding-left: 5%;
+    margin: 0;
+    text-align: left;
+}
+h2 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #f97e76;
+}
+.main {
+    padding: 3%;
+}
+.col {
+    float: left;
+    margin-right: 3%;
+}
+.col1 {
+    width: 42%;
+}
+.col2 {
+    width: 30%;
+}
+.col3 {
+    width: 22%;
+    margin-right: 0;
+}
+.col1 div, .col2 div, .col3 div {
+    background: #FFF;
+    color: #9eb2c0;
+    margin-bottom: 12%;
+}
+.col1 div:last-child, .col2 div:last-child, .col3 div:last-child {
+    margin-bottom: 0;
+}
+.outer {
+    background: #2e3641;
+    width: 100px;
+    height: 100px;
+}
+.outer:hover {
+    background: #FFF;
+    color: #2e3641;
+}
+.outer:focus {
+    background: #FFF;
+    color: #2e3641;
+}
+.outer:last-child {
+    height: 320px;
+}
+.outer:last-child:hover {
+    background: #2e3641;
+}
+.inner {
+    background: #FFF;
+    color: #2e3641;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    text-align: center;
+    padding: 0 6%;
+}
+.inner h1 {
+    background: #FFF;
+    color: #2e3641;
+    margin-top: 10%;
+    padding-left: 0;
+}
+.inner nav {
+    background: #2e3641;
+    margin-top: 4%;
+}
+.editor-menu-button {
+    background: #2e3641;
+    border-right: solid 1px #49525d;
+    padding: 5.4%;
+}
+.editor-menu-button:first-child {
+    margin-left: 0.4%;
+}
+.editor-button {
+    text-transform: uppercase;
+}
+.editor-inp {
+    width: 98%;
+    line-height: 3;
+}
+.section-editor textarea {
+    width: 99%;
+    height: 360px;
+    line-height: 2;
+    box-shadow: inset 1px 1px 5px -1px #e7e7e7;
+    -webkit-box-shadow: inset 1px 1px 5px -1px #e7e7e7;
+    -moz-box-shadow: inset 1px 1px 5px -1px #e7e7e7;
+    -o-box-shadow: inset 1px 1px 5px -1px #e7e7e7;
+    border: 1px solid #dae4eb;
+    margin-bottom: 4%;
+    resize: none;
+    padding: 2% 0;
+    color: #2e3641;
+}
+.editor-button {
+    padding: 3% 6%;
+}
+.inner-2 {
+    z-index: 200;
+}
+.section-navi li {
+    width: 16.6%;
+    height: 90px;
+    float: left;
+    background: #2e3641;
+    border-right: solid 1px #49525d;
+    box-sizing: border-box;
+}
+.section-navi li:last-child {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.navi-inp {
+    display: block;
+    width: 100%;
+    height: 38px;
+    color: #c1cfd9;
+    background: #3d444e;
+    border-color: #49525d;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+}
+.notice {
+    background: #f97e76;
+    width: 0.4vw;
+    height: 0.4vw;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 32%;
+    right: 28%;
+}
+.section-sub p {
+    margin: 4% 0 1% 4%;
+}
+.section-sub form {
+    margin: 0 4% 6% 4%;
+}
+.sub-inp {
+    width: 70%;
+}
+.sub-button {
+    line-height: 1.4;
+    padding: 1% 4%;
+    float: right;
+}
+.section-related div {
+    margin: 0;
+    padding: 4% 0;
+}
+.section-related div:hover {
+    background: #fafcfd;
+    cursor: pointer;
+}
+.section-related h1 {
+    margin: 0;
+}
+.section-related h2 {
+    margin: 0 0 2% 0;
+}
+.check {
+    position: absolute;
+    right: -2%;
+}
+
+.section-tags {
+    padding-bottom: 6%;
+}
+.tags-inp {
+    width: 68%;
+}
+.tags-button {
+    line-height: 1.5;
+}
+.section-tags form {
+    margin: 4% 0 0 0;
+    text-align: center;
+}
+.section-tags p {
+    font-size: 0.8rem;
+    line-height: 2;
+    padding-left: 5%;
+}
+.pop-menu-row li {
+    float: left;
+}
+.pop-menu-row a {
+    background: #c1cfd9;
+    color: #FFF;
+    display: inline-block;
+    text-align: center;
+    font: 700 1.2rem "Asap", sans-serif;
+    line-height: 3;
+    padding: 0 6%;
+}
+.pop-menu-row a:focus {
+    background: #FFF;
+    color: #c1cfd9;
+}
+.pop-menu-row a:hover {
+    background: #9eb2c0;
+    color: #FFF;
+}
+.pop-menu-row ul {
+    position: absolute;
+}
+.pop-lower-row div:first-child {
+    width: 20%;
+}
+.pop-lower-row div:last-child {
+    width: 80%;
+}
+.pop-lower-row li {
+    padding: 0 10%;
+}
+.pop-lower-row a{
+    background: #FFF;
+    padding: 0;
+}
+.pop-lower-row a:hover{
+    background: #fafcfd;
+}
+.pop-lower-row h2 {
+    margin: 1%;
+    text-align: left;
+}
