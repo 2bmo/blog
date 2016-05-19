@@ -5,123 +5,266 @@
     <link href="blog.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>    <meta name="description" content>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <title>blog</title>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <script type="text/css" src="jquery-ui-1.11.4.custom/jquery-ui.min.css"></script>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.css' rel='stylesheet' />
+
+    <title>blog</title>
 </head>
 <body>
     <main class="main o-flow">
         <div class="col col1">
-            <div class="section-editor o-flow rel">
-                <nav>
-                    <ul>
-                        <li class="outer"><div class="inner"></div></li>
-                        <li class="outer">
-                            <div class="inner o-flow inner-2">
-                                <h1>Add New Post</h1>
-                                <form method="post">
-                                    <input type="text" class="inp editor-inp" placeholder="Enter title here">
-                                    <nav class="o-flow">
-                                        <button type="button" class="button editor-menu-button left"></button>
-                                        <button type="button" class="button editor-menu-button left"></button>
-                                        <button type="button" class="button editor-menu-button left"></button>
-                                        <button type="button" class="button editor-menu-button left"></button>
-                                        <button type="button" class="button editor-menu-button left"></button>
-                                        <button type="button" class="button editor-menu-button left"></button>
-                                    </nav>
-                                    <textarea></textarea>
-                                    <input type="button" class="button grey editor-button left" value="save draft">
-                                    <input type="button" class="button grey editor-button" value="preview">
-                                    <input type="button" class="button red editor-button right" value="publish">
-                                </form>
-                            </div>
-                        </li>
-                        <li class="outer"><div class="inner"></div></li>
-                        <li class="outer"><div class="inner"></div></li>
-                        <li class="outer"><div class="inner"></div></li>
-                        <li class="outer"></li>
-                    </ul>
-                </nav>
+            <div class="section-editor o-flow rel" id="editor-tabs">
+                 <ul>
+                     <li class="outer flexy"><a class="speed" href="#inner-1"></a></li>
+                     <li class="outer flexy"><a class="doc" href="#inner-2"></a></li>
+                     <li class="outer flexy"><a class="landscape" href="#inner-3"></a></li>
+                     <li class="outer flexy"><a class="chain" href="#inner-4"></a></li>
+                     <li class="outer flexy"><a class="chat" href="#inner-5"></a></li>
+                     <li class="outer-last"></li>
+                 </ul>
+                 <div class="inner" id="inner-1">
+                     <h2>Inner 1</h2>
+                     <form method="post" name="section-editor-form">
+                         <input type="text" class="inp editor-inp" placeholder="Enter title here">
+                         <nav class="o-flow">
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                         </nav>
+                         <textarea name="section-editor-area"></textarea>
+                         <input type="button" class="button grey editor-button left" value="save draft">
+                         <input type="button" class="button grey editor-button" value="preview">
+                         <input type="button" class="button red editor-button right" value="publish">
+                     </form>
+                 </div>
+                 <div class="inner o-flow" id="inner-2">
+                        <h2>Add New Post</h2>
+                        <form method="post" name="section-editor-form">
+                            <input type="text" class="inp editor-inp" placeholder="Enter title here">
+                            <nav class="o-flow">
+                                <button type="button" class="button editor-menu-button left"></button>
+                                <button type="button" class="button editor-menu-button left"></button>
+                                <button type="button" class="button editor-menu-button left"></button>
+                                <button type="button" class="button editor-menu-button left"></button>
+                                <button type="button" class="button editor-menu-button left"></button>
+                                <button type="button" class="button editor-menu-button left"></button>
+                            </nav>
+                            <textarea name="section-editor-area"></textarea>
+                            <input type="button" class="button grey editor-button left" value="save draft">
+                            <input type="button" class="button grey editor-button" value="preview">
+                            <input type="button" class="button red editor-button right" value="publish">
+                        </form>
+                    </div>
+                 <div class="inner" id="inner-3">
+                     <h2>Inner 3</h2>
+                     <form method="post" name="section-editor-form">
+                         <input type="text" class="inp editor-inp" placeholder="Enter title here">
+                         <nav class="o-flow">
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                         </nav>
+                         <textarea name="section-editor-area"></textarea>
+                         <input type="button" class="button grey editor-button left" value="save draft">
+                         <input type="button" class="button grey editor-button" value="preview">
+                         <input type="button" class="button red editor-button right" value="publish">
+                     </form>
+                 </div>
+                 <div class="inner" id="inner-4">
+                     <h2>Inner 4</h2>
+                     <form method="post" name="section-editor-form">
+                         <input type="text" class="inp editor-inp" placeholder="Enter title here">
+                         <nav class="o-flow">
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                         </nav>
+                         <textarea name="section-editor-area"></textarea>
+                         <input type="button" class="button grey editor-button left" value="save draft">
+                         <input type="button" class="button grey editor-button" value="preview">
+                         <input type="button" class="button red editor-button right" value="publish">
+                     </form>
+                 </div>
+                 <div class="inner" id="inner-5">
+                     <h2>Inner 5</h2>
+                     <form method="post" name="section-editor-form">
+                         <input type="text" class="inp editor-inp" placeholder="Enter title here">
+                         <nav class="o-flow">
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                             <button type="button" class="button editor-menu-button left"></button>
+                         </nav>
+                         <textarea name="section-editor-area"></textarea>
+                         <input type="button" class="button grey editor-button left" value="save draft">
+                         <input type="button" class="button grey editor-button" value="preview">
+                         <input type="button" class="button red editor-button right" value="publish">
+                     </form>
+                 </div>
             </div>
             <div class="section-navi o-flow">
                 <nav>
                     <ul>
-                        <li><a href="" class="navi-link navi-link1"></a></li>
-                        <li class="rel">
+                        <li class="flexy"><a href="" class="navi-link navi-link1"></a></li>
+                        <li class="flexy rel">
                             <a href="" class="navi-link navi-link2"></a>
                             <div class="notice"></div>
                         </li>
-                        <li><a href="" class="navi-link navi-link3"></a></li>
+                        <li class="flexy"><a href="" class="navi-link navi-link3"></a></li>
                         <li class="flexy">
-                            <form method="post">
-                                <input type="text" class="inp navi-inp">
+                            <form method="post" name="section-navi-form">
+                                <input type="text" class="inp navi-inp" name="navi-inp">
                             </form>
                         </li>
                     </ul>
                 </nav>
-            </div> <!-- +bg -->
+            </div>
             <div class="section-sub o-flow">
                 <h1>Subscribe</h1>
                 <p>Get out feed through email.</p>
-                <form method="post" class="o-flow">
+                <form method="post" class="o-flow flexy">
                     <input type="text" class="inp sub-inp" placeholder="e.g. sinbad@montecristo.com">
                     <input type="submit" class="button red sub-button" value="SUBSCRIBE">
                 </form>
             </div>
         </div>
         <div class="col col2">
-            <div class="section-related">
+            <div class="section-related o-flow">
                 <h1>Related Posts</h1>
-                 <div>
-                    <h2>Philosophy can't be taught; it's an application of the sciences to truth</h2>
-                    by Lord Wilmore
+                 <div class="o-flow">
+                     <div class="inner-wrap left">
+                         <h2>Philosophy can't be taught; it's an application of the sciences to truth</h2>
+                         by Lord Wilmore
+                     </div>
+                     <form method="post" name="section-related-form" class="left">
+                         <input type="checkbox" id="related-check1" class="related-checkbox">
+                         <label for="related-check1"></label>
+                     </form>
                  </div>
-                <div>
-                    <h2>Now let the avenging god make way for me to punish the wrongdoer!</h2>
-                    by Abbé Bussoni
+                <div class="o-flow">
+                    <div class="inner-wrap left">
+                        <h2>Now let the avenging god make way for me to punish the wrongdoer!</h2>
+                        by Abbé Bussoni
+                    </div>
+                    <form method="post" name="section-related-form" class="left">
+                        <input type="checkbox" id="related-check2" class="related-checkbox">
+                        <label for="related-check2"></label>
+                    </form>
                 </div>
-                <div>
-                    <h2>There's neither happiness nor misery in the world</h2>
-                    by Monsieur Zaccone
+                <div class="o-flow">
+                    <div class="inner-wrap left">
+                        <h2>There's neither happiness nor misery in the world</h2>
+                        by Monsieur Zaccone
+                    </div>
+                    <form method="post" name="section-related-form" class="left">
+                        <input type="checkbox" id="related-check3" class="related-checkbox">
+                        <label for="related-check3"></label>
+                    </form>
                 </div>
             </div>
             <div class="section-tags">
                 <h1>Tags</h1>
-                <form method="post">
+                <form method="post" class="flexy">
                     <input type="text" class="inp tags-inp" id="tags-check"><label for="tags-check"></label>
                     <input type="submit" class="button red tags-button" value="ADD">
                 </form>
                 <p>Separate tags with comas</p>
             </div> <!--rdy -->
             <div class="section-map">
-
+                <div id="map" class="map"></div>
+                <div class="add-map">
+                    <form class="flexy" method="post">
+                        <input type="text" class="inp map-inp" id="map-check"><label for="map-check"></label>
+                        <input type="submit" class="button red add-map-button" value="ADD MAP">
+                    </form>
+                </div>
             </div>
         </div>
         <div class="col col3">
-            <div class="section-calendar"></div>
-            <div class="section-recent"></div>
-            <div class="section-cats"></div>
-            <div class="section-pop">
-                <ul class="pop-menu-row">
-                    <li><a href="">Popular</a>
-                        <ul>
-                            <li class="row pop-lower-row">
-                                <div><img src="" alt="Château"></div>
-                                <div><a href=""><h2>Fourteen years in Château d'If</h2></a>by Edmond Dantè</div>
-                            </li>
-                            <li class="row pop-lower-row">
-                                <div><img src="" alt="Count"></div>
-                                <div><a href=""><h2>Number 34 and number 27</h2></a>by the Count of Monte Cristo</div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="">Comments</a>
-                    </li>
-                    <li><a href="">Recent</a>
-                    </li>
+            <div id="section-calendar"></div>
+            <div class="section-recent rel">
+                <h1>Recent Posts</h1>
+                <a href="" class="recent-toggle"><i class="recent-arrow"><i></i></i></a>
+                <div class="recent-inner"></div>
+            </div>
+            <div class="section-cats rel">
+                <h1>Categories</h1>
+                <a href="" class="cats-toggle"><i class="cats-arrow"><i></i></i></a>
+                <div class="cats-inner">
+                    <form method="post">
+                        <input type="text" class="inp cats-inp" placeholder="Title">
+                        <div><input type="checkbox" id="cats-check-1"><label for="cats-check-1">Display as dropdown</label></div>
+                        <div><input type="checkbox" id="cats-check-2"><label for="cats-check-2">Show post counts</label></div>
+                        <div><input type="checkbox" id="cats-check-3"><label for="cats-check-3">Show hierarchy</label></div>
+                        <input type="button" class="button green cats-button" value="save">
+                        <input type="button" class="button red cats-button right" value="delete">
+                    </form>
+                </div>
+            </div>
+            <div class="section-pop" id="tabs">
+                <ul class="flexy">
+                    <li class="flexy"><a href="#tab-popular">Popular</a></li>
+                    <li class="flexy"><a href="#tab-comments">Comments</a></li>
+                    <li class="flexy"><a href="#tab-recent">Recent</a></li>
                 </ul>
+                <div id="tab-popular" class="pop-tab">
+                    <div class="o-flow">
+                        <div class="left"><img src="img/_tmp-Chateau.jpg" alt="Château"></div>
+                        <div class="left"><a href=""><h2>Fourteen years in Château d'If</h2></a>by Edmond Dantè</div>
+                    </div>
+                    <div class="o-flow">
+                        <div class="left"><img src="img/_tmp-Count.jpg" alt="Count"></div>
+                        <div class="left"><a href=""><h2>Number 34 and number 27</h2></a>by the Count of Monte Cristo</div>
+                    </div>
+                </div>
+                <div id="tab-comments" class="pop-tab"></div>
+                <div id="tab-recent" class="pop-tab"></div>
             </div>
         </div>
     </main>
+    <script>
+        $('#section-calendar').datepicker ({
+            inline: true,
+            showOtherMonths: true,
+            dayNamesMin:["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+        });
+        mapboxgl.accessToken = 'pk.eyJ1IjoiZmlsa3kiLCJhIjoiY2lvYmpraXdzMDA0NHZqbTVheTJoY2dwMSJ9.99xzuah8HZeQyTZrQWH1hw';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'cinvwo787001sd5m2tjc1txcs.json',
+            center: [2.351845, 48.855082],
+            zoom: 14.6
+        });
+        map.dragRotate.disable();
+        map.touchZoomRotate.disableRotation();
+        map.scrollZoom.disable();
+        map.addControl(new mapboxgl.Navigation());
+        $(function() {
+            $( "#tabs").tabs();
+            $( "#editor-tabs" ).tabs({
+                active: 1
+            });
+        });
+        $(".cats-toggle").click(function(){
+            $(".cats-inner").slideToggle(500);
+        });
+    </script>
 </body>
 </html>
 
