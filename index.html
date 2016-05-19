@@ -28,7 +28,7 @@
                      <li class="outer-last"></li>
                  </ul>
                  <div class="inner" id="inner-1">
-                     <h2>Inner 1</h2>
+                     <h2>1</h2>
                      <form method="post" name="section-editor-form">
                          <input type="text" class="inp editor-inp" placeholder="Enter title here">
                          <nav class="o-flow">
@@ -50,12 +50,12 @@
                         <form method="post" name="section-editor-form">
                             <input type="text" class="inp editor-inp" placeholder="Enter title here">
                             <nav class="o-flow">
-                                <button type="button" class="button editor-menu-button left"></button>
-                                <button type="button" class="button editor-menu-button left"></button>
-                                <button type="button" class="button editor-menu-button left"></button>
-                                <button type="button" class="button editor-menu-button left"></button>
-                                <button type="button" class="button editor-menu-button left"></button>
-                                <button type="button" class="button editor-menu-button left"></button>
+                                <button type="button" class="button editor-menu-button left bold"></button>
+                                <button type="button" class="button editor-menu-button left italic"></button>
+                                <button type="button" class="button editor-menu-button left underlined"></button>
+                                <button type="button" class="button editor-menu-button left strike-through"></button>
+                                <button type="button" class="button editor-menu-button left unordered"></button>
+                                <button type="button" class="button editor-menu-button left ordered"></button>
                             </nav>
                             <textarea name="section-editor-area"></textarea>
                             <input type="button" class="button grey editor-button left" value="save draft">
@@ -64,7 +64,7 @@
                         </form>
                     </div>
                  <div class="inner" id="inner-3">
-                     <h2>Inner 3</h2>
+                     <h2>3</h2>
                      <form method="post" name="section-editor-form">
                          <input type="text" class="inp editor-inp" placeholder="Enter title here">
                          <nav class="o-flow">
@@ -82,7 +82,7 @@
                      </form>
                  </div>
                  <div class="inner" id="inner-4">
-                     <h2>Inner 4</h2>
+                     <h2>4</h2>
                      <form method="post" name="section-editor-form">
                          <input type="text" class="inp editor-inp" placeholder="Enter title here">
                          <nav class="o-flow">
@@ -100,7 +100,7 @@
                      </form>
                  </div>
                  <div class="inner" id="inner-5">
-                     <h2>Inner 5</h2>
+                     <h2>5</h2>
                      <form method="post" name="section-editor-form">
                          <input type="text" class="inp editor-inp" placeholder="Enter title here">
                          <nav class="o-flow">
@@ -185,7 +185,7 @@
                     <input type="submit" class="button red tags-button" value="ADD">
                 </form>
                 <p>Separate tags with comas</p>
-            </div> <!--rdy -->
+            </div>
             <div class="section-map">
                 <div id="map" class="map"></div>
                 <div class="add-map">
@@ -200,13 +200,13 @@
             <div id="section-calendar"></div>
             <div class="section-recent rel">
                 <h1>Recent Posts</h1>
-                <a href="" class="recent-toggle"><i class="recent-arrow"><i></i></i></a>
-                <div class="recent-inner"></div>
+                <a href="#toggle-1" class="recent-toggle"><i class="recent-arrow"><i></i></i></a>
+                <div class="recent-inner" id="toggle-1">:></div>
             </div>
             <div class="section-cats rel">
                 <h1>Categories</h1>
-                <a href="" class="cats-toggle"><i class="cats-arrow"><i></i></i></a>
-                <div class="cats-inner">
+                <a href="#toggle-2" class="cats-toggle" ><i class="cats-arrow"><i></i></i></a>
+                <div class="cats-inner" id="toggle-2">
                     <form method="post">
                         <input type="text" class="inp cats-inp" placeholder="Title">
                         <div><input type="checkbox" id="cats-check-1"><label for="cats-check-1">Display as dropdown</label></div>
@@ -225,12 +225,12 @@
                 </ul>
                 <div id="tab-popular" class="pop-tab">
                     <div class="o-flow">
-                        <div class="left"><img src="img/_tmp-Chateau.jpg" alt="Château"></div>
-                        <div class="left"><a href=""><h2>Fourteen years in Château d'If</h2></a>by Edmond Dantè</div>
+                        <div class="left tr"><img src="img/_tmp-Chateau.jpg" alt="Château"></div>
+                        <div class="left tr"><a href=""><h2>Fourteen years in Château d'If</h2></a>by Edmond Dantè</div>
                     </div>
                     <div class="o-flow">
-                        <div class="left"><img src="img/_tmp-Count.jpg" alt="Count"></div>
-                        <div class="left"><a href=""><h2>Number 34 and number 27</h2></a>by the Count of Monte Cristo</div>
+                        <div class="left tr"><img src="img/_tmp-Count.jpg" alt="Count"></div>
+                        <div class="left tr"><a href=""><h2>Number 34 and number 27</h2></a>by the Count of Monte Cristo</div>
                     </div>
                 </div>
                 <div id="tab-comments" class="pop-tab"></div>
@@ -255,14 +255,17 @@
         map.touchZoomRotate.disableRotation();
         map.scrollZoom.disable();
         map.addControl(new mapboxgl.Navigation());
-        $(function() {
+        $(document).ready(function() {
+            $(".cats-toggle").click(function(){
+                $(".cats-inner").slideToggle(500);
+            });
+            $(".recent-toggle").click(function(){
+                $(".recent-inner").slideToggle(500);
+            });
             $( "#tabs").tabs();
             $( "#editor-tabs" ).tabs({
                 active: 1
             });
-        });
-        $(".cats-toggle").click(function(){
-            $(".cats-inner").slideToggle(500);
         });
     </script>
 </body>

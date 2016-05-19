@@ -93,9 +93,10 @@ input[type="checkbox"] + label:before {
     -webkit-box-shadow: inset 1px 1px 5px -1px #e7e7e7;
     -moz-box-shadow: inset 1px 1px 5px -1px #e7e7e7;
     -o-box-shadow: inset 1px 1px 5px -1px #e7e7e7;
+    background: #fff;
 }
 input[type="checkbox"]:checked + label:before {
-    background: url("img/sprite.svg") no-repeat center -1204px;
+    background: url("img/sprite.svg") no-repeat center -1204px #fff;
 }
 .rel {
     position: relative;
@@ -170,20 +171,17 @@ h2 {
 }
 .section-editor .ui-tabs-nav li:last-child {
     background: #2e3641;
-    height: 306px;
+    height: 246px;
 }
 .section-editor .inner {
     margin-bottom: 0;
 }
 .inner {
-    background: #FFF;
-    color: #2e3641;
     text-align: center;
-    padding: 0 6%;
-    position: absolute;
+    padding: 0 12%;
     top: 0;
     left: 100px;
-    width: 74%;
+    position: absolute;
 }
 .inner h2 {
     background: #FFF;
@@ -258,6 +256,24 @@ h2 {
 .section-editor .ui-tabs-nav .chat:active, .section-editor .ui-tabs-nav .chat:focus {
     background: url("img/sprite.svg") no-repeat center -738px #fff;
 }
+.bold {
+    background: url("img/sprite.svg") no-repeat center -1248px #2e3641;
+}
+.italic {
+    background: url("img/sprite.svg") no-repeat center -1295px #2e3641;
+}
+.underlined {
+    background: url("img/sprite.svg") no-repeat center -1342px #2e3641;
+}
+.strike-through {
+    background: url("img/sprite.svg") no-repeat center -1389px #2e3641;
+}
+.ordered {
+    background: url("img/sprite.svg") no-repeat center -1443px #2e3641;
+}
+.unordered {
+    background: url("img/sprite.svg") no-repeat center -1494px #2e3641;
+}
 .section-navi li {                              /* section NAVI */
     width: 16.6%;
     height: 90px;
@@ -328,6 +344,12 @@ h2 {
     margin: 0;
     padding: 4%;
 }
+.section-related div:hover {
+    background: #fafcfd;
+}
+.section-related .inner-wrap {
+    background: transparent;
+}
 .section-related h2 {
     margin: 0 0 2% 0;
 }
@@ -370,8 +392,8 @@ h2 {
     border: none;
     border-spacing: 0;
 }
-#section-calendar, .ui-datepicker-table {
-    width: 100%;
+#section-calendar, .ui-datepicker-calendar {
+    width: 100% !important;
     text-align: center;
     vertical-align: middle;
     font-size: 18px;
@@ -382,16 +404,17 @@ h2 {
     border-bottom: solid 1px #49525d;
     font: 700 1.9rem "Asap", sans-serif;
     line-height: 2;
+    width: 99.9%;
 }
 .ui-datepicker-prev {
     float: left;
     border-right: solid 1px #49525d;
-    background: url('img/sprite.svg') no-repeat 6px -1126px;
+    background: url('img/sprite.svg') no-repeat 14px -1125px;
 }
 .ui-datepicker-next {
     float: right;
     border-left: solid 1px #49525d;
-    background: url('img/sprite.svg') no-repeat -62px -1126px;
+    background: url('img/sprite.svg') no-repeat -54px -1126px;
 }
 .ui-datepicker-prev, .ui-datepicker-next {
     width: 10%;
@@ -406,10 +429,16 @@ h2 {
     background: #2e3641;
     color: #e9f0f4;
 }
+thead span {
+    font-weight: 400;
+}
+.ui-datepicker-calendar {
+    font-size: 1.5rem;
+}
 .ui-datepicker tbody td {
     background: #f97e76;
 }
-.ui-state-active, .ui-state-highlight, .ui-state-default {
+.ui-datepicker .ui-state-active, .ui-datepicker .ui-state-highlight, .ui-datepicker .ui-state-default {
     color: #fff;
 }
 .ui-datepicker tbody .ui-state-active {
@@ -418,10 +447,10 @@ h2 {
 .ui-datepicker tbody .ui-state-hover {
     background: #2e3641;
 }
-.ui-datepicker-unselectable .ui-state-default {
+.ui-datepicker .ui-datepicker-unselectable .ui-state-default {
     color: #fbb2ad;
 }
-.ui-tabs-nav li {                      /* Section: POP */
+.ui-tabs-nav li {                                     /* POP */
     width: 33.4%;
 }
 .ui-tabs-nav {
@@ -448,8 +477,11 @@ h2 {
 .section-pop h2 {
     margin: 0;
 }
+.section-pop .tr {
+    background: transparent;
+}
 .section-pop .o-flow {
-    padding: 6% 1%;
+    padding: 8% 1%;
 }
 .section-pop .o-flow div:first-child {
     width: 24%;
@@ -460,12 +492,14 @@ h2 {
 }
 .pop-tab {
     background: #FFF;
-    padding: 2% 0;
     overflow: auto;
     width: 100%;
 }
 .pop-tab div {
     margin-bottom: 0;
+}
+.pop-tab div:hover {
+    background: #fafcfd;
 }
 .pop-tab img {
     width: 75%;
@@ -506,18 +540,12 @@ h2 {
     -moz-box-shadow: none;
 }
 .mapboxgl-ctrl-icon.mapboxgl-ctrl-zoom-out {
-    background: url("img/zoom-out.svg") #f97e76 !important;
+    background: url("img/sprite.svg") no-repeat -66px -1546px #f97e76 !important;
 }
 .mapboxgl-ctrl-icon.mapboxgl-ctrl-zoom-in {
-    background: url("img/zoom-in.svg") #f97e76 !important;
+    background: url("img/sprite.svg") no-repeat -2px -1546px #f97e76 !important;
 }
-.mapboxgl-ctrl-icon.mapboxgl-ctrl-zoom-out:hover {
-    background: url("img/zoom-out.svg") #c1cfd9 !important;
-}
-.mapboxgl-ctrl-icon.mapboxgl-ctrl-zoom-in:hover {
-    background: url("img/zoom-in.svg") #c1cfd9 !important;
-}
-.cats-inp {                                           /* section CATS */
+.cats-inp {                                           /* CATS */
     width: 96%;
     margin-right: 0;
 }
@@ -570,7 +598,7 @@ h2 {
     background: #c1cfd9;
     color: #FFF;
 }
-.recent-arrow {                     /* section RECENT */
+.recent-arrow {                     /* RECENT */
     position: relative;
     top: 40%;
     left: 48%;
@@ -583,4 +611,9 @@ h2 {
     line-height: 0;
     border: 6px solid transparent;
     border-left: 6px solid #fff;
+}
+.recent-inner {
+    display: none;
+    padding: 10%;
+    text-align: center;
 }
