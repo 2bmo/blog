@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="blog.css" rel="stylesheet" type="text/css">
+    <link href="media.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>    <meta name="description" content>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 
@@ -196,7 +197,7 @@
                 </div>
             </div>
         </div>
-        <div class="col col3">
+        <div class="col col3 o-flow">
             <div id="section-calendar"></div>
             <div class="section-recent rel">
                 <h1>Recent Posts</h1>
@@ -239,22 +240,21 @@
         </div>
     </main>
     <script>
-        $('#section-calendar').datepicker ({
-            inline: true,
-            showOtherMonths: true,
-            dayNamesMin:["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
-        });
         mapboxgl.accessToken = 'pk.eyJ1IjoiZmlsa3kiLCJhIjoiY2lvYmpraXdzMDA0NHZqbTVheTJoY2dwMSJ9.99xzuah8HZeQyTZrQWH1hw';
-        var map = new mapboxgl.Map({
-            container: 'map',
-            style: 'cinvwo787001sd5m2tjc1txcs.json',
-            center: [2.351845, 48.855082],
-            zoom: 14.6
-        });
-        map.dragRotate.disable();
-        map.touchZoomRotate.disableRotation();
-        map.scrollZoom.disable();
-        map.addControl(new mapboxgl.Navigation());
+        if (!mapboxgl.supported()) {
+            alert('Your browser does not support Mapbox GL');
+        } else {
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'cinvwo787001sd5m2tjc1txcs.json',
+                center: [2.351845, 48.855082],
+                zoom: 14.6
+            });
+            map.dragRotate.disable();
+            map.touchZoomRotate.disableRotation();
+            map.scrollZoom.disable();
+            map.addControl(new mapboxgl.Navigation());
+        }
         $(document).ready(function() {
             $(".cats-toggle").click(function(){
                 $(".cats-inner").slideToggle(500);
@@ -265,6 +265,11 @@
             $( "#tabs").tabs();
             $( "#editor-tabs" ).tabs({
                 active: 1
+            });
+            $('#section-calendar').datepicker ({
+                inline: true,
+                showOtherMonths: true,
+                dayNamesMin:["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
             });
         });
     </script>

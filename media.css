@@ -1,0 +1,318 @@
+@media all and (max-width: 1620px){
+    .section-editor .ui-tabs-nav li {
+        width: 90px;
+        height: 90px;
+    }
+    .inner {
+        left: 90px;
+    }
+    .section-editor textarea {
+        height: 240px;
+    }
+    .editor-menu-button {
+        padding: 7%;
+    }
+    .section-map .map {
+        height: 384px;
+    }
+    .section-navi li {
+        height: 94px;
+    }
+    .section-editor .ui-tabs-nav li:last-child {
+        height: 268px;
+    }
+    .map .mapboxgl-ctrl-top-right {
+        top: 2%;
+    }
+}
+@media all and (max-width: 1545px){
+    .editor-button {
+        padding: 3%;
+    }
+    .section-editor .ui-tabs-nav li:last-child {
+        height: 260px;
+    }
+}
+@media all and (max-width: 1498px){
+    .section-map .map {
+        height: 354px;
+    }
+    .section-editor .ui-tabs-nav li:last-child {
+        height: 254px;
+    }
+    #section-calendar .ui-datepicker-calendar {
+        font-size: 1.4rem;
+    }
+    .section-cats form {
+        padding: 2% 6% 8% 6%;
+    }
+}
+@media all and (max-width: 1432px){
+    .section-map .map {
+        height: 328px;
+    }
+    .section-editor .ui-tabs-nav li:last-child {
+        height: 250px;
+    }
+    .ui-tabs-nav a {
+        font-size: 1rem;
+        line-height: 4;
+    }
+}
+@media all and (max-width: 1400px){
+    .section-editor .ui-tabs-nav li:last-child {
+        height: 246px;
+    }
+}
+@media all and (max-width: 1359px){
+    #section-calendar .ui-datepicker-calendar {
+        font-size: 1.3rem;
+    }
+    .map .mapboxgl-ctrl-top-right {
+        right: 86%;
+    }
+    .section-map .map {
+        height: 310px;
+    }
+    .col1>div {
+        margin-bottom: 10%;
+    }
+}
+@media all and (max-width: 1280px) {
+    .cats-toggle, .recent-toggle {
+        top: 6px;
+        right: 6px;
+        width: 50px;
+        height: 50px;
+    }
+}
+@media all and (max-width: 1249px){
+    #section-calendar .ui-datepicker-calendar {
+        font-size: 1.1rem;
+    }
+    .section-map .map {
+        height: 276px;
+    }
+    .section-editor .ui-tabs-nav li:last-child {
+        height: 180px;
+    }
+    .map .mapboxgl-ctrl-top-right {
+        right: 84%;
+    }
+    .col1>div {
+        margin-bottom: 12%;
+    }
+}
+@media all and (max-width: 1236px) {
+    .cats-toggle, .recent-toggle {
+        width: 46px;
+        height: 46px;
+    }
+}
+@media all and (max-width: 1200px){
+    .editor-button {
+        padding: 3% 2%;
+    }
+    .section-editor .ui-tabs-nav li {
+        width: 80px;
+        height: 80px;
+    }
+    .section-navi li {
+        height: 80px;
+    }
+    .section-editor .ui-tabs-nav li:last-child {
+        height: 220px;
+    }
+    .section-map .map {
+        height: 290px;
+    }
+    .inner {
+        padding: 0 9%;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    #section-calendar .ui-datepicker-header {
+        font-size: 1.8rem;
+    }
+    .ui-datepicker-prev, .ui-datepicker-next {
+        width: 16%;
+        height: 3.6rem;
+    }
+    .col1>div, .col2>div, .col3>div {
+        margin-bottom: 8%;
+    }
+}
+@media all and (max-width: 1127px) {
+    .cats-toggle, .recent-toggle {
+        top: 16px;
+        right: 4px;
+        width: 28px;
+        height: 28px;
+    }
+}
+@media all and (max-width: 1079px) {
+    .section-editor .ui-tabs-nav li {
+        width: 70px;
+        height: 70px;
+    }
+    .section-navi li {
+        height: 70px;
+    }
+    .inner {
+        left: 70px;
+    }
+    .section-map .map {
+        height: 234px;
+    }
+    #section-calendar .ui-datepicker-calendar {
+        font-size: .9rem;
+    }
+    .section-cats form {
+        padding: 1% 6% 3% 6%;
+    }
+}
+@media all and (max-width: 1009px) {
+    .section-navi li {
+        height: 80px;
+    }
+    .main {
+        padding: 3% 3% 0 3%;
+        position: relative;
+    }
+    .col1 {
+        width: 60%;
+        padding-bottom: 64%;
+    }
+    .col2 {
+        top: 64.8%;
+        position: absolute;
+        width: 96%;
+        overflow: auto;
+        padding-bottom: 6%;
+    }
+    .col3 {
+        width: 34%;
+        float: right;
+        position: relative;
+    }
+    .col2 .section-related {
+        float: left;
+        width: 58.8%;
+    }
+    .col2 .section-tags {
+        position: absolute;
+        top: 70%;
+        right: 2%;
+        margin-bottom: 0;
+        padding-bottom: 1%;
+    }
+    .section-map, .section-tags {
+        width: 34%;
+    }
+    .col2 .section-map {
+        float: right;
+        margin-right: 2%;
+    }
+    .section-tags form {
+        padding: 0 2%;
+    }
+    .cats-toggle, .recent-toggle {
+        width: 56px;
+        height: 56px;
+    }
+}
+@media all and (max-width: 929px) {
+    .col1 {
+        padding-bottom: 68%;
+    }
+    .col2 {
+        top: 65%;
+    }
+}
+@media all and (max-width: 898px) {
+    .col1 {
+        padding-bottom: 72%;
+    }
+    .col2 {
+        top: 63.8%;
+    }
+    .map .mapboxgl-ctrl-top-right {
+        right: 80%;
+    }
+    .inner {
+        padding: 0 7%;
+    }
+    .navi-inp {
+        width: 90%;
+    }
+}
+@media all and (max-width: 894px) {
+    .col2 {
+        padding-bottom: 8%;
+    }
+}
+@media all and (max-width: 850px) {
+    .section-navi li {
+        height: 70px;
+    }
+}
+@media all and (max-width: 810px) {
+    .col1 {
+        padding-bottom: 74%;
+    }
+    .col2 {
+        top: 65%;
+    }
+    .add-map-button {
+        padding: 1% 1.8%;
+        line-height: 2;
+    }
+    h1, #section-calendar .ui-datepicker-header {
+        font-size: 1.6rem;
+    }
+    .ui-datepicker-prev, .ui-datepicker-next {
+        height: 3.2rem;
+    }
+    .cats-toggle, .recent-toggle {
+        top: 0;
+        right: 0;
+        width: 50px;
+        height: 50px;
+    }
+}
+@media all and (max-width: 764px) {
+    .ui-tabs-nav a {
+        font-size: .9rem;
+    }
+}
+@media all and (max-width: 750px) {
+    .section-navi li {
+        height: 70px;
+    }
+    .section-editor .ui-tabs-nav li {
+        width: 64px;
+        height: 64px;
+    }
+    .section-navi li {
+        height: 64px;
+    }
+    .inner {
+        left: 64px;
+    }
+    .col1 {
+        padding-bottom: 80%;
+    }
+    .col2 {
+        padding-bottom: 8%;
+    }
+}
+@media all and (max-width: 729px) {
+    .col2 {
+        padding-bottom: 11%;
+    }
+}
+

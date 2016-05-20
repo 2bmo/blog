@@ -96,7 +96,7 @@ input[type="checkbox"] + label:before {
     background: #fff;
 }
 input[type="checkbox"]:checked + label:before {
-    background: url("img/sprite.svg") no-repeat center -1204px #fff;
+    background: url("img/sprite.svg") no-repeat center -1205px #fff;
 }
 .rel {
     position: relative;
@@ -132,7 +132,7 @@ h2 {
     color: #f97e76;
 }
 .main {
-    padding: 3%;
+    padding: 3% 3% 1% 3%;
 }
 .col {
     float: left;
@@ -171,7 +171,7 @@ h2 {
 }
 .section-editor .ui-tabs-nav li:last-child {
     background: #2e3641;
-    height: 246px;
+    height: 248px;
 }
 .section-editor .inner {
     margin-bottom: 0;
@@ -210,7 +210,7 @@ h2 {
     padding: 1% 0 0 2%;
 }
 .section-editor textarea {
-    width: 99%;
+    width: 99.2%;
     height: 360px;
     line-height: 2;
     box-shadow: inset 1px 1px 5px -1px #e7e7e7;
@@ -257,22 +257,22 @@ h2 {
     background: url("img/sprite.svg") no-repeat center -738px #fff;
 }
 .bold {
-    background: url("img/sprite.svg") no-repeat center -1248px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -1251px #2e3641;
 }
 .italic {
-    background: url("img/sprite.svg") no-repeat center -1295px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -1299px #2e3641;
 }
 .underlined {
-    background: url("img/sprite.svg") no-repeat center -1342px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -1346px #2e3641;
 }
 .strike-through {
-    background: url("img/sprite.svg") no-repeat center -1389px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -1393px #2e3641;
 }
 .ordered {
-    background: url("img/sprite.svg") no-repeat center -1443px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -1445px #2e3641;
 }
 .unordered {
-    background: url("img/sprite.svg") no-repeat center -1494px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -1498px #2e3641;
 }
 .section-navi li {                              /* section NAVI */
     width: 16.6%;
@@ -284,12 +284,16 @@ h2 {
 }
 .section-navi li:last-child {
     width: 50%;
+    padding-left: 3%;
     align-items: center;
     justify-content: center;
 }
+.section-navi form {
+    width: 86%;
+}
 .navi-inp {
     display: block;
-    width: 100%;
+    width: inherit;
     height: 38px;
     color: #c1cfd9;
     background: url("img/sprite.svg") no-repeat -30px -1082px #3d444e;
@@ -396,7 +400,7 @@ h2 {
     width: 100% !important;
     text-align: center;
     vertical-align: middle;
-    font-size: 18px;
+    font-size: 1.5rem;
     line-height: 2;
 }
 #section-calendar .ui-datepicker-header {
@@ -404,7 +408,7 @@ h2 {
     border-bottom: solid 1px #49525d;
     font: 700 1.9rem "Asap", sans-serif;
     line-height: 2;
-    width: 99.9%;
+    width: 100%;
 }
 .ui-datepicker-prev {
     float: left;
@@ -431,9 +435,6 @@ h2 {
 }
 thead span {
     font-weight: 400;
-}
-.ui-datepicker-calendar {
-    font-size: 1.5rem;
 }
 .ui-datepicker tbody td {
     background: #f97e76;
@@ -506,7 +507,7 @@ thead span {
 }
 .section-map .map  {                        /*  MAP */
     width: 100%;
-    height: 390px;
+    height: 394px;
     margin-bottom: 0;
 }
 .add-map {
@@ -540,10 +541,10 @@ thead span {
     -moz-box-shadow: none;
 }
 .mapboxgl-ctrl-icon.mapboxgl-ctrl-zoom-out {
-    background: url("img/sprite.svg") no-repeat -66px -1546px #f97e76 !important;
+    background: url("img/sprite.svg") no-repeat -66px -1548px #f97e76 !important;
 }
 .mapboxgl-ctrl-icon.mapboxgl-ctrl-zoom-in {
-    background: url("img/sprite.svg") no-repeat -2px -1546px #f97e76 !important;
+    background: url("img/sprite.svg") no-repeat -2px -1548px #f97e76 !important;
 }
 .cats-inp {                                           /* CATS */
     width: 96%;
