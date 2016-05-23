@@ -47,7 +47,7 @@ ul {
     vertical-align: middle;
 }
 .inp {
-    line-height: 2.2;
+    line-height: 1.6;
     box-shadow: inset 1px 1px 5px -1px #e7e7e7;
     -webkit-box-shadow: inset 1px 1px 5px -1px #e7e7e7;
     -moz-box-shadow: inset 1px 1px 5px -1px #e7e7e7;
@@ -55,9 +55,10 @@ ul {
     border: 1px solid #dae4eb;
     border-radius: 2%;
     background: #FFF;
-    padding: 2% 0 0 4%;
+    padding: 2% 0 2% 4%;
     margin-right: 2%;
     text-align: left;
+    color: #2e3641;
 }
 .button {
     border: none;
@@ -223,8 +224,19 @@ h2 {
     padding: 2% 0;
     color: #2e3641;
 }
+.inner div {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 .editor-button {
     padding: 3% 6%;
+}
+.editor-left {
+    float: left;
+}
+.editor-right {
+    float: right;
 }
 .section-editor .ui-tabs-nav .speed {
     background: url("img/sprite.svg") no-repeat center -4px #2e3641;
@@ -284,7 +296,6 @@ h2 {
 }
 .section-navi li:last-child {
     width: 50%;
-    padding-left: 3%;
     align-items: center;
     justify-content: center;
 }
@@ -302,6 +313,7 @@ h2 {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     -o-box-shadow: none;
+    margin: auto;
 }
 .navi-inp:focus {
     background: #3d444e;

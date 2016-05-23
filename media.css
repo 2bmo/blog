@@ -271,7 +271,7 @@
         padding: 1% 1.8%;
         line-height: 2;
     }
-    h1, #section-calendar .ui-datepicker-header {
+    h1, #section-calendar .ui-datepicker-header, .inner h2 {
         font-size: 1.6rem;
     }
     .ui-datepicker-prev, .ui-datepicker-next {
@@ -290,9 +290,6 @@
     }
 }
 @media all and (max-width: 750px) {
-    .section-navi li {
-        height: 70px;
-    }
     .section-editor .ui-tabs-nav li {
         width: 64px;
         height: 64px;
@@ -309,10 +306,361 @@
     .col2 {
         padding-bottom: 8%;
     }
+    ::-webkit-input-placeholder {
+        font-size: 1rem;
+    }
+    ::-moz-placeholder {
+        font-size: 1rem;
+    }
+    :-moz-placeholder {
+        font-size: 1rem;
+    }
+    :-ms-input-placeholder {
+        font-size: 1rem;
+    }
 }
 @media all and (max-width: 729px) {
     .col2 {
         padding-bottom: 11%;
     }
 }
-
+@media all and (max-width: 699px) {
+    .main {
+        padding: 6% 2%;
+    }
+    .col1, .col2, .col3 {
+        float: none;
+        width: 92%;
+        margin: 0 auto;
+    }
+    .col1 {
+        margin: 0 auto;
+    }
+    .col2 {
+        position: static;
+    }
+    .col1, .col2 {
+        padding-bottom: 6%;
+    }
+    .col3 .tab-popular, .col3 .tab-comments, .col3 .tab-recent, .col3 .pop-tab {
+        margin-bottom: 0;
+    }
+    h1, #section-calendar .ui-datepicker-header, .inner h2 {
+        font-size: 2rem;
+    }
+    .col2 .section-tags {
+        position: static;
+    }
+    .inner {
+        left: 80px;
+        padding: 0 9%;
+    }
+    .section-editor .ui-tabs-nav li {
+        width: 80px;
+        height: 80px;
+    }
+    .section-editor .ui-tabs-nav li:last-child {
+        height: 268px;
+    }
+    .section-navi li {
+        height: 88px;
+    }
+    .section-navi .notice {
+        width: 1vw;
+        height: 1vw;
+    }
+    .col2 .section-related, .section-map, .section-tags {
+        width: 100%;
+    }
+    .col2 .section-related {
+        float: none;
+    }
+    .col2 .section-tags {
+        margin-bottom: 8%;
+    }
+    .col2 .section-map {
+        margin-right: 0;
+    }
+    .section-map .map {
+        height: 384px;
+    }
+    .map .mapboxgl-ctrl-top-right {
+        top: 4%;
+        right: 88%;
+    }
+    .ui-tabs-nav a {
+        font-size: 1rem;
+    }
+    .section-pop .o-flow {
+        padding: 2% 1%;
+    }
+    .section-pop .o-flow div:first-child {
+        width: 16%;
+    }
+    .cats-toggle, .recent-toggle {
+        width: 64px;
+        height: 64px;
+    }
+    .ui-datepicker-prev, .ui-datepicker-next {
+        width: 64px;
+        height: 4rem;
+        padding: 0;
+    }
+    #section-calendar .ui-datepicker-calendar {
+        font-size: 1.2rem;
+    }
+    #section-calendar .ui-datepicker-header {
+        width: calc(100% - 1px);
+    }
+    .sub-inp {
+        padding: 2% 0 2% 4%;
+    }
+}
+@media all and (max-width: 590px) {
+    .section-navi li {
+        height: 80px;
+    }
+    .section-pop .o-flow {
+        padding: 4% 1%;
+    }
+    .inner {
+        padding: 0 7%;
+    }
+    .section-editor .ui-tabs-nav li:last-child {
+        height: 220px;
+    }
+}
+@media all and (max-width: 549px) {
+    .section-editor .ui-tabs-nav li {
+        width: 70px;
+        height: 70px;
+    }
+    .inner {
+        left: 70px;
+    }
+}
+@media all and (max-width: 520px) {
+    .section-navi li {
+        height: 70px;
+    }
+    .map .mapboxgl-ctrl-top-right {
+        right: 86%;
+    }
+    .editor-menu-button {
+        padding: 8%;
+    }
+    .section-navi .notice {
+        width: 1.2vw;
+        height: 1.2vw;
+        right: 24%;
+    }
+    .navi-inp {
+        height: 30px;
+    }
+}
+@media all and (max-width: 507px) {
+    .editor-button {
+        margin: 2%;
+    }
+    .editor-button.editor-right {
+        float: left;
+    }
+    .editor-mid {
+        float: right;
+    }
+    .editor-left {
+        margin-right: 20%;
+    }
+}
+@media all and (max-width: 500px) {
+    .inner {
+        padding: 0 6%;
+    }
+    .section-map .map {
+        height: 310px;
+    }
+}
+@media all and (max-width: 479px) {
+    .section-editor .ui-tabs-nav li {
+        width: 66px;
+        height: 66px;
+    }
+    .section-navi li {
+        height: 64px;
+    }
+    h1, #section-calendar .ui-datepicker-header, .inner h2 {
+        font-size: 1.8rem;
+    }
+    .cats-toggle, .recent-toggle, .ui-datepicker-prev, .ui-datepicker-next {
+        width: 56px;
+        height: 56px;
+    }
+}
+@media all and (max-width: 459px) {
+    .section-editor .ui-tabs-nav li {
+        width: 64px;
+        height: 64px;
+    }
+    .inner {
+        left: 64px;
+    }
+    .section-navi li {
+        height: 62px;
+    }
+    .section-navi .notice {
+        width: 1.4vw;
+        height: 1.4vw;
+        right: 20%;
+    }
+}
+@media all and (max-width: 440px) {
+    ::-webkit-input-placeholder {
+        font-size: .86rem;
+    }
+    ::-moz-placeholder {
+        font-size: .86rem;
+    }
+    :-moz-placeholder {
+        font-size: .86rem;
+    }
+    :-ms-input-placeholder {
+        font-size: .86rem;
+    }
+    .section-navi .notice {
+        width: 1.6vw;
+        height: 1.6vw;
+        right: 16%;
+    }
+    .section-navi li {
+        height: 60px;
+    }
+}
+@media all and (max-width: 428px) {
+    .section-editor .ui-tabs-nav li:last-child {
+        height: 260px;
+    }
+}
+@media all and (max-width: 420px) {
+    .section-editor .ui-tabs-nav li {
+        width: 60px;
+        height: 58px;
+    }
+    .inner {
+        left: 60px;
+    }
+}
+@media all and (max-width: 410px) {
+    .section-navi li {
+        height: 56px;
+    }
+    .col1, .col2, .col3 {
+        width: 94%;
+    }
+}
+@media all and (max-width: 390px) {
+    .section-map .map {
+        height: 234px;
+    }
+    .map .mapboxgl-ctrl-top-right {
+        right: 84%;
+    }
+    .navi-inp {
+        height: 26px;
+    }
+    .section-navi li {
+        height: 52px;
+    }
+    .section-editor .ui-tabs-nav li {
+        width: 56px;
+        height: 54px;
+    }
+    .inner {
+        left: 56px;
+    }
+    .section-editor textarea {
+        height: 200px;
+    }
+    h1, #section-calendar .ui-datepicker-header, .inner h2 {
+        font-size: 1.6rem;
+    }
+    .cats-toggle, .recent-toggle, .ui-datepicker-prev, .ui-datepicker-next {
+        width: 50px;
+        height: 50px;
+    }
+    .section-pop .o-flow {
+        padding: 8% 1%;
+    }
+    .section-pop .o-flow div:first-child {
+        width: 22%;
+    }
+}
+@media all and (max-width: 380px) {
+    .sub-inp {
+        padding: 2% 0 2% 1%;
+    }
+}
+@media all and (max-width: 370px) {
+    ::-webkit-input-placeholder {
+        font-size: .68rem;
+    }
+    ::-moz-placeholder {
+        font-size: .68rem;
+    }
+    :-moz-placeholder {
+        font-size: .68rem;
+    }
+    :-ms-input-placeholder {
+        font-size: .68rem;
+    }
+    .section-navi li {
+        height: 48px;
+    }
+    .navi-inp {
+        height: 22px;
+        width: 96%;
+    }
+    .section-editor .ui-tabs-nav li {
+        width: 50px;
+        height: 50px;
+    }
+    .inner {
+        left: 50px;
+        padding: 0 5%;
+    }
+    .section-editor textarea {
+        height: 180px;
+    }
+}
+@media all and (max-width: 350px) {
+    .section-navi li {
+        height: 44px;
+    }
+    .navi-inp {
+        height: 20px;
+    }
+    .section-editor .ui-tabs-nav li {
+        width: 40px;
+        height: 40px;
+    }
+    .inner {
+        left: 40px;
+    }
+}
+@media all and (max-width: 340px) {
+    .map .mapboxgl-ctrl-top-right {
+        right: 82%;
+    }
+}
+@media all and (max-width: 334px) {
+    .map .mapboxgl-ctrl-top-right {
+        right: 82%;
+    }
+    .editor-left {
+        margin-right: 10%;
+    }
+}
+@media all and (max-width: 320px) {
+    #section-calendar .ui-datepicker-header {
+        width: 100%;
+    }
+}
