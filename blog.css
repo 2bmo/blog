@@ -200,7 +200,7 @@ h2 {
 .editor-menu-button {
     background: #2e3641;
     border-right: solid 1px #49525d;
-    padding: 5.4%;
+    padding: 20px;
 }
 .editor-menu-button:first-child {
     margin-left: 0.4%;
@@ -239,10 +239,10 @@ h2 {
     float: right;
 }
 .section-editor .ui-tabs-nav .speed {
-    background: url("img/sprite.svg") no-repeat center -4px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -10px #2e3641;
 }
 .section-editor .ui-tabs-nav .speed:active, .section-editor .ui-tabs-nav .speed:focus {
-    background: url("img/sprite.svg") no-repeat center -82px #fff;
+    background: url("img/sprite.svg") no-repeat center -88px #fff;
 }
 .section-editor .ui-tabs-nav .doc {
     background: url("img/sprite.svg") no-repeat center -165px #2e3641;
@@ -251,7 +251,7 @@ h2 {
     background: url("img/sprite.svg") no-repeat center -245px #fff;
 }
 .section-editor .ui-tabs-nav .landscape {
-    background: url("img/sprite.svg") no-repeat center -338px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -342px #2e3641;
 }
 .section-editor .ui-tabs-nav .landscape:active, .section-editor .ui-tabs-nav .landscape:focus {
     background: url("img/sprite.svg") no-repeat center -422px #fff;
@@ -260,7 +260,7 @@ h2 {
     background: url("img/sprite.svg") no-repeat center -508px #2e3641;
 }
 .section-editor .ui-tabs-nav .chain:active, .section-editor .ui-tabs-nav .chain:focus {
-    background: url("img/sprite.svg") no-repeat center -578px #fff;
+    background: url("img/sprite.svg") no-repeat center -582px #fff;
 }
 .section-editor .ui-tabs-nav .chat {
     background: url("img/sprite.svg") no-repeat center -658px #2e3641;
@@ -269,7 +269,7 @@ h2 {
     background: url("img/sprite.svg") no-repeat center -738px #fff;
 }
 .bold {
-    background: url("img/sprite.svg") no-repeat center -1251px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -1252px #2e3641;
 }
 .italic {
     background: url("img/sprite.svg") no-repeat center -1299px #2e3641;
@@ -281,10 +281,10 @@ h2 {
     background: url("img/sprite.svg") no-repeat center -1393px #2e3641;
 }
 .ordered {
-    background: url("img/sprite.svg") no-repeat center -1445px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -1446px #2e3641;
 }
 .unordered {
-    background: url("img/sprite.svg") no-repeat center -1498px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -1499px #2e3641;
 }
 .section-navi li {                              /* section NAVI */
     width: 16.6%;
@@ -433,7 +433,7 @@ h2 {
     background: url('img/sprite.svg') no-repeat -54px -1126px;
 }
 .ui-datepicker-prev, .ui-datepicker-next {
-    width: 10%;
+    width: 42px;
     height: 3.8rem;
     padding: 0 3%;
     cursor: pointer;

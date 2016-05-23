@@ -1,3 +1,14 @@
+@media all and (max-width: 2000px) {
+    .ui-datepicker-prev {
+        background-position: 18px -1125px;
+    }
+    .ui-datepicker-next {
+        background-position: -51px -1125px;
+    }
+    .editor-menu-button {
+        padding: 26px;
+    }
+}
 @media all and (max-width: 1620px){
     .section-editor .ui-tabs-nav li {
         width: 90px;
@@ -8,9 +19,6 @@
     }
     .section-editor textarea {
         height: 240px;
-    }
-    .editor-menu-button {
-        padding: 7%;
     }
     .section-map .map {
         height: 384px;
@@ -62,6 +70,11 @@
 @media all and (max-width: 1400px){
     .section-editor .ui-tabs-nav li:last-child {
         height: 246px;
+    }
+}
+@media all and (max-width: 1378px){
+    .editor-menu-button {
+        padding: 21px;
     }
 }
 @media all and (max-width: 1359px){
@@ -139,7 +152,6 @@
         font-size: 1.8rem;
     }
     .ui-datepicker-prev, .ui-datepicker-next {
-        width: 16%;
         height: 3.6rem;
     }
     .col1>div, .col2>div, .col3>div {
@@ -148,10 +160,23 @@
 }
 @media all and (max-width: 1127px) {
     .cats-toggle, .recent-toggle {
-        top: 16px;
-        right: 4px;
+        top: 14px;
+        right: 6px;
         width: 28px;
         height: 28px;
+    }
+    .cats-arrow  {
+        left: 8%;
+        top: 42%;
+    }
+    .recent-arrow {
+        left: 44%;
+        top: 28%;
+    }
+}
+@media all and (max-width: 1093px){
+    .editor-menu-button {
+        padding: 20px;
     }
 }
 @media all and (max-width: 1079px) {
@@ -223,6 +248,19 @@
     .cats-toggle, .recent-toggle {
         width: 56px;
         height: 56px;
+        top: 0;
+        right: 0;
+    }
+    .recent-arrow {
+        left: 46%;
+        top: 38%;
+    }
+    .cats-arrow {
+        left: 28%;
+        top: 48%;
+    }
+    .editor-menu-button {
+        padding: 22px;
     }
 }
 @media all and (max-width: 929px) {
@@ -258,6 +296,20 @@
 @media all and (max-width: 850px) {
     .section-navi li {
         height: 70px;
+    }
+}
+@media all and (max-width: 850px) and (min-width: 700px) {
+    .navi-link1 {
+        background-position: center -840px;
+    }
+    .navi-link2 {
+        background-position:  center -923px;
+    }
+    .navi-link3 {
+        background-position: center -998px;
+    }
+    .navi-inp {
+        background-position: -30px -1077px;
     }
 }
 @media all and (max-width: 810px) {
@@ -322,6 +374,11 @@
 @media all and (max-width: 729px) {
     .col2 {
         padding-bottom: 11%;
+    }
+}
+@media all  and (max-width: 705px) {
+    .editor-menu-button {
+        padding: 21px;
     }
 }
 @media all and (max-width: 699px) {
@@ -415,6 +472,46 @@
     .sub-inp {
         padding: 2% 0 2% 4%;
     }
+    .cats-arrow {
+        left: 32%;
+    }
+    .recent-arrow {
+        left: 48%;
+        top: 40%;
+    }
+    .section-editor .ui-tabs-nav .speed {
+        background-position: center -17px;
+    }
+    .section-editor .ui-tabs-nav .speed:active, .section-editor .ui-tabs-nav .speed:focus {
+        background-position: center -95px;
+    }
+    .section-editor .ui-tabs-nav .doc {
+        background-position: center -172px;
+    }
+    .section-editor .ui-tabs-nav .doc:active, .section-editor .ui-tabs-nav .doc:focus {
+        background-position: center -252px;
+    }
+    .section-editor .ui-tabs-nav .landscape {
+        background-position: center -347px;
+    }
+    .section-editor .ui-tabs-nav .landscape:active, .section-editor .ui-tabs-nav .landscape:focus {
+        background-position: center -430px;
+    }
+    .section-editor .ui-tabs-nav .chain {
+        background-position: center -521px;
+    }
+    .section-editor .ui-tabs-nav .chain:active, .section-editor .ui-tabs-nav .chain:focus {
+        background-position: center -591px;
+    }
+    .section-editor .ui-tabs-nav .chat {
+        background-position: center -669px;
+    }
+    .section-editor .ui-tabs-nav .chat:active, .section-editor .ui-tabs-nav .chat:focus {
+        background-position: center -748px;
+    }
+    .editor-menu-button {
+        padding: 23px;
+    }
 }
 @media all and (max-width: 590px) {
     .section-navi li {
@@ -429,6 +526,18 @@
     .section-editor .ui-tabs-nav li:last-child {
         height: 220px;
     }
+    .navi-link1 {
+        background-position: center -836px;
+    }
+    .navi-link2 {
+        background-position: center -918px;
+    }
+    .navi-link3 {
+        background-position: center -993px;
+    }
+    .navi-inp {
+        background-position: -30px -1080px;
+    }
 }
 @media all and (max-width: 549px) {
     .section-editor .ui-tabs-nav li {
@@ -438,6 +547,36 @@
     .inner {
         left: 70px;
     }
+    .section-editor .ui-tabs-nav .speed {
+        background-position: center -21px;
+    }
+    .section-editor .ui-tabs-nav .speed:active, .section-editor .ui-tabs-nav .speed:focus {
+        background-position: center -99px;
+    }
+    .section-editor .ui-tabs-nav .doc {
+        background-position: center -178px;
+    }
+    .section-editor .ui-tabs-nav .doc:active, .section-editor .ui-tabs-nav .doc:focus {
+        background-position: center -258px;
+    }
+    .section-editor .ui-tabs-nav .landscape {
+        background-position: center -352px;
+    }
+    .section-editor .ui-tabs-nav .landscape:active, .section-editor .ui-tabs-nav .landscape:focus {
+        background-position: center -435px;
+    }
+    .section-editor .ui-tabs-nav .chain {
+        background-position: center -526px;
+    }
+    .section-editor .ui-tabs-nav .chain:active, .section-editor .ui-tabs-nav .chain:focus {
+        background-position: center -596px;
+    }
+    .section-editor .ui-tabs-nav .chat {
+        background-position: center -675px;
+    }
+    .section-editor .ui-tabs-nav .chat:active, .section-editor .ui-tabs-nav .chat:focus {
+        background-position: center -754px;
+    }
 }
 @media all and (max-width: 520px) {
     .section-navi li {
@@ -446,16 +585,26 @@
     .map .mapboxgl-ctrl-top-right {
         right: 86%;
     }
-    .editor-menu-button {
-        padding: 8%;
-    }
     .section-navi .notice {
-        width: 1.2vw;
-        height: 1.2vw;
-        right: 24%;
+        width: 1.4vw;
+        height: 1.4vw;
+        right: 26%;
+        top: 30%;
     }
     .navi-inp {
         height: 30px;
+    }
+    .navi-link1 {
+        background-position: center -841px;
+    }
+    .navi-link2 {
+        background-position: center -924px;
+    }
+    .navi-link3 {
+        background-position: center -999px;
+    }
+    .navi-inp {
+        background-position: -30px -1082px;
     }
 }
 @media all and (max-width: 507px) {
@@ -495,6 +644,48 @@
         width: 56px;
         height: 56px;
     }
+    .cats-arrow {
+        left: 28%;
+    }
+    .navi-link1 {
+        background-position: center -845px;
+    }
+    .navi-link2 {
+        background-position: center -927px;
+    }
+    .navi-link3 {
+        background-position: center -1002px;
+    }
+    .navi-inp {
+        background-position: -30px -1084px;
+    }
+    .section-navi .notice {
+        right: 24%;
+        top: 28%;
+    }
+}
+@media all and (max-width: 469px) {
+    .editor-menu-button {
+        padding: 21px;
+    }
+    .bold {
+        background-position: center -1257px;
+    }
+    .italic {
+        background-position:  center -1304px;
+    }
+    .underlined {
+        background-position:  center -1351px;
+    }
+    .strike-through {
+        background-position:  center -1398px;
+    }
+    .unordered {
+        background-position:  center -1503px;
+    }
+    .ordered {
+        background-position:  center -1451px;
+    }
 }
 @media all and (max-width: 459px) {
     .section-editor .ui-tabs-nav li {
@@ -511,6 +702,10 @@
         width: 1.4vw;
         height: 1.4vw;
         right: 20%;
+    }
+    .section-navi .notice {
+        width: 1.6vw;
+        height: 1.6vw;
     }
 }
 @media all and (max-width: 440px) {
@@ -534,6 +729,27 @@
     .section-navi li {
         height: 60px;
     }
+    .navi-link1 {
+        background-position: center -846.8px;
+    }
+    .navi-link2 {
+        background-position: center -929px;
+    }
+    .navi-link3 {
+        background-position: center -1004px;
+    }
+    .navi-inp {
+        background-position: -30px -1084px;
+    }
+    .section-navi .notice {
+        right: 19%;
+        top: 27%;
+    }
+}
+@media all and (max-width: 469px) {
+    .editor-menu-button {
+        padding: 19px;
+    }
 }
 @media all and (max-width: 428px) {
     .section-editor .ui-tabs-nav li:last-child {
@@ -555,6 +771,18 @@
     }
     .col1, .col2, .col3 {
         width: 94%;
+    }
+    .navi-link1 {
+        background-position: center -849px;
+    }
+    .navi-link2 {
+        background-position: center -931.8px;
+    }
+    .navi-link3 {
+        background-position: center -1006.9px;
+    }
+    .navi-inp {
+        background-position: -30px -1084px;
     }
 }
 @media all and (max-width: 390px) {
@@ -580,6 +808,24 @@
     .section-editor textarea {
         height: 200px;
     }
+    .navi-link1 {
+        background-position: center -851px;
+    }
+    .navi-link2 {
+        background-position: center -934px;
+    }
+    .navi-link3 {
+        background-position: center -1008.9px;
+    }
+    .navi-inp {
+        background-position: -30px -1086px;
+    }
+    .section-navi .notice {
+        width: 1.8vw;
+        height: 1.8vw;
+        right: 18%;
+        top: 22%;
+    }
     h1, #section-calendar .ui-datepicker-header, .inner h2 {
         font-size: 1.6rem;
     }
@@ -593,10 +839,44 @@
     .section-pop .o-flow div:first-child {
         width: 22%;
     }
+    .ui-datepicker-prev {
+        background-position: 10px -1130px;
+    }
+    .ui-datepicker-next {
+        background-position: -58px -1128px;
+    }
+}
+@media all and (max-width: 381px) {
+    .editor-menu-button {
+        padding: 17px;
+    }
+    .bold {
+        background-position: center -1259px;
+    }
+    .italic {
+        background-position:  center -1305px;
+    }
+    .underlined {
+        background-position:  center -1353px;
+    }
+    .strike-through {
+        background-position:  center -1400px;
+    }
+    .unordered {
+        background-position:  center -1505px;
+    }
+    .ordered {
+        background-position:  center -1453px;
+    }
 }
 @media all and (max-width: 380px) {
     .sub-inp {
         padding: 2% 0 2% 1%;
+    }
+}
+@media all and (max-width: 376px) {
+    .editor-left {
+        margin-right: 14%;
     }
 }
 @media all and (max-width: 370px) {
@@ -630,13 +910,25 @@
     .section-editor textarea {
         height: 180px;
     }
+    .navi-link1 {
+        background-position: center -853px;
+    }
+    .navi-link2 {
+        background-position: center -936px;
+    }
+    .navi-link3 {
+        background-position: center -1010.9px;
+    }
+    .navi-inp {
+        background-position: -30px -1088.6px;
+    }
+    .section-navi .notice {
+        top: 20%;
+    }
 }
 @media all and (max-width: 350px) {
     .section-navi li {
         height: 44px;
-    }
-    .navi-inp {
-        height: 20px;
     }
     .section-editor .ui-tabs-nav li {
         width: 40px;
@@ -645,10 +937,42 @@
     .inner {
         left: 40px;
     }
+    .navi-link1 {
+        background-position: center -855px;
+    }
+    .navi-link2 {
+        background-position: center -937px;
+    }
+    .navi-link3 {
+        background-position: center -1012.9px;
+    }
 }
 @media all and (max-width: 340px) {
     .map .mapboxgl-ctrl-top-right {
         right: 82%;
+    }
+}
+@media all and (max-width: 338px) {
+    .editor-menu-button {
+        padding: 16px;
+    }
+    .bold {
+        background-position: center -1260px;
+    }
+    .italic {
+        background-position:  center -1307px;
+    }
+    .underlined {
+        background-position:  center -1354px;
+    }
+    .strike-through {
+        background-position:  center -1401px;
+    }
+    .unordered {
+        background-position:  center -1506px;
+    }
+    .ordered {
+        background-position:  center -1454px;
     }
 }
 @media all and (max-width: 334px) {
