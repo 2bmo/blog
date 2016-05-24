@@ -1,13 +1,38 @@
 @media all and (max-width: 2000px) {
+    .editor-menu-button {
+        padding: 26px;
+    }
+    .bold {
+        background-position: center -1254px;
+    }
+    .italic {
+        background-position:  center -1301px;
+    }
+    .underlined {
+        background-position:  center -1348px;
+    }
+    .strike-through {
+        background-position:  center -1395px;
+    }
+    .unordered {
+        background-position:  center -1500px;
+    }
+    .ordered {
+        background-position:  center -1448px;
+    }
+    .section-navi .notice {
+        top: 38%;
+        right: 34%;
+    }
+}
+@media all and (max-width: 2000px) and (min-width: 1650px) {
     .ui-datepicker-prev {
         background-position: 18px -1125px;
     }
     .ui-datepicker-next {
         background-position: -51px -1125px;
     }
-    .editor-menu-button {
-        padding: 26px;
-    }
+
 }
 @media all and (max-width: 1620px){
     .section-editor .ui-tabs-nav li {
@@ -31,6 +56,40 @@
     }
     .map .mapboxgl-ctrl-top-right {
         top: 2%;
+    }
+    .section-editor .ui-tabs-nav .speed {
+        background-position: center -16px;
+    }
+    .section-editor .ui-tabs-nav .speed:active, .section-editor .ui-tabs-nav .speed:focus {
+        background-position: center -93px;
+    }
+    .section-editor .ui-tabs-nav .doc {
+        background-position: center -171px;
+    }
+    .section-editor .ui-tabs-nav .doc:active, .section-editor .ui-tabs-nav .doc:focus {
+        background-position: center -251px;
+    }
+    .section-editor .ui-tabs-nav .landscape {
+        background-position: center -346px;
+    }
+    .section-editor .ui-tabs-nav .landscape:active, .section-editor .ui-tabs-nav .landscape:focus {
+        background-position: center -429px;
+    }
+    .section-editor .ui-tabs-nav .chain {
+        background-position: center -520px;
+    }
+    .section-editor .ui-tabs-nav .chain:active, .section-editor .ui-tabs-nav .chain:focus {
+        background-position: center -590px;
+    }
+    .section-editor .ui-tabs-nav .chat {
+        background-position: center -667px;
+    }
+    .section-editor .ui-tabs-nav .chat:active, .section-editor .ui-tabs-nav .chat:focus {
+        background-position: center -746px;
+    }
+    .section-navi .notice {
+        top: 36%;
+        right: 32%;
     }
 }
 @media all and (max-width: 1545px){
@@ -72,9 +131,32 @@
         height: 246px;
     }
 }
+@media all and (max-width: 1400px){
+    .section-navi .notice {
+        right: 30%;
+    }
+}
 @media all and (max-width: 1378px){
     .editor-menu-button {
         padding: 21px;
+    }
+    .bold {
+        background-position: center -1259px;
+    }
+    .italic {
+        background-position:  center -1306px;
+    }
+    .underlined {
+        background-position:  center -1353px;
+    }
+    .strike-through {
+        background-position:  center -1400px;
+    }
+    .unordered {
+        background-position:  center -1505px;
+    }
+    .ordered {
+        background-position:  center -1453px;
     }
 }
 @media all and (max-width: 1359px){
@@ -157,6 +239,49 @@
     .col1>div, .col2>div, .col3>div {
         margin-bottom: 8%;
     }
+    .section-editor .ui-tabs-nav .speed {
+        background-position: center -20px;
+    }
+    .section-editor .ui-tabs-nav .speed:active, .section-editor .ui-tabs-nav .speed:focus {
+        background-position: center -97px;
+    }
+    .section-editor .ui-tabs-nav .doc {
+        background-position: center -175px;
+    }
+    .section-editor .ui-tabs-nav .doc:active, .section-editor .ui-tabs-nav .doc:focus {
+        background-position: center -255px;
+    }
+    .section-editor .ui-tabs-nav .landscape {
+        background-position: center -350px;
+    }
+    .section-editor .ui-tabs-nav .landscape:active, .section-editor .ui-tabs-nav .landscape:focus {
+        background-position: center -433px;
+    }
+    .section-editor .ui-tabs-nav .chain {
+        background-position: center -524px;
+    }
+    .section-editor .ui-tabs-nav .chain:active, .section-editor .ui-tabs-nav .chain:focus {
+        background-position: center -594px;
+    }
+    .section-editor .ui-tabs-nav .chat {
+        background-position: center -671px;
+    }
+    .section-editor .ui-tabs-nav .chat:active, .section-editor .ui-tabs-nav .chat:focus {
+        background-position: center -750px;
+    }
+    .navi-link1 {
+        background-position: center -838px;
+    }
+    .navi-link2 {
+        background-position:  center -921px;
+    }
+    .navi-link3 {
+        background-position: center -996px;
+    }
+    .section-navi .notice {
+        top: 30%;
+        right: 26%;
+    }
 }
 @media all and (max-width: 1127px) {
     .cats-toggle, .recent-toggle {
@@ -198,6 +323,49 @@
     }
     .section-cats form {
         padding: 1% 6% 3% 6%;
+    }
+    .section-editor .ui-tabs-nav .speed {
+        background-position: center -26px;
+    }
+    .section-editor .ui-tabs-nav .speed:active, .section-editor .ui-tabs-nav .speed:focus {
+        background-position: center -103px;
+    }
+    .section-editor .ui-tabs-nav .doc {
+        background-position: center -181px;
+    }
+    .section-editor .ui-tabs-nav .doc:active, .section-editor .ui-tabs-nav .doc:focus {
+        background-position: center -261px;
+    }
+    .section-editor .ui-tabs-nav .landscape {
+        background-position: center -356px;
+    }
+    .section-editor .ui-tabs-nav .landscape:active, .section-editor .ui-tabs-nav .landscape:focus {
+        background-position: center -439px;
+    }
+    .section-editor .ui-tabs-nav .chain {
+        background-position: center -530px;
+    }
+    .section-editor .ui-tabs-nav .chain:active, .section-editor .ui-tabs-nav .chain:focus {
+        background-position: center -600px;
+    }
+    .section-editor .ui-tabs-nav .chat {
+        background-position: center -677px;
+    }
+    .section-editor .ui-tabs-nav .chat:active, .section-editor .ui-tabs-nav .chat:focus {
+        background-position: center -756px;
+    }
+    .navi-link1 {
+        background-position: center -844px;
+    }
+    .navi-link2 {
+        background-position:  center -927px;
+    }
+    .navi-link3 {
+        background-position: center -1002px;
+    }
+    .section-navi .notice {
+        top: 29%;
+        right: 25%;
     }
 }
 @media all and (max-width: 1009px) {
@@ -262,6 +430,37 @@
     .editor-menu-button {
         padding: 22px;
     }
+    .bold {
+        background-position: center -1257px;
+    }
+    .italic {
+        background-position:  center -1304px;
+    }
+    .underlined {
+        background-position:  center -1351px;
+    }
+    .strike-through {
+        background-position:  center -1398px;
+    }
+    .unordered {
+        background-position:  center -1503px;
+    }
+    .ordered {
+        background-position:  center -1451px;
+    }
+    .navi-link1 {
+        background-position: center -838px;
+    }
+    .navi-link2 {
+        background-position:  center -921px;
+    }
+    .navi-link3 {
+        background-position: center -996px;
+    }
+    .section-navi .notice {
+        top: 32%;
+        right: 30%;
+    }
 }
 @media all and (max-width: 929px) {
     .col1 {
@@ -298,7 +497,7 @@
         height: 70px;
     }
 }
-@media all and (max-width: 850px) and (min-width: 700px) {
+@media all and (max-width: 850px) {
     .navi-link1 {
         background-position: center -840px;
     }
@@ -310,6 +509,9 @@
     }
     .navi-inp {
         background-position: -30px -1077px;
+    }
+    .section-navi .notice {
+        right: 27%;
     }
 }
 @media all and (max-width: 810px) {
@@ -334,6 +536,12 @@
         right: 0;
         width: 50px;
         height: 50px;
+    }
+    .ui-datepicker-prev {
+        background-position: 14px -1132px;
+    }
+    .ui-datepicker-next {
+        background-position: -56px -1132px;
     }
 }
 @media all and (max-width: 764px) {
@@ -369,6 +577,52 @@
     }
     :-ms-input-placeholder {
         font-size: 1rem;
+    }
+    .section-editor .ui-tabs-nav .speed {
+        background-position: center -30px;
+    }
+    .section-editor .ui-tabs-nav .speed:active, .section-editor .ui-tabs-nav .speed:focus {
+        background-position: center -107px;
+    }
+    .section-editor .ui-tabs-nav .doc {
+        background-position: center -185px;
+    }
+    .section-editor .ui-tabs-nav .doc:active, .section-editor .ui-tabs-nav .doc:focus {
+        background-position: center -265px;
+    }
+    .section-editor .ui-tabs-nav .landscape {
+        background-position: center -360px;
+    }
+    .section-editor .ui-tabs-nav .landscape:active, .section-editor .ui-tabs-nav .landscape:focus {
+        background-position: center -443px;
+    }
+    .section-editor .ui-tabs-nav .chain {
+        background-position: center -533px;
+    }
+    .section-editor .ui-tabs-nav .chain:active, .section-editor .ui-tabs-nav .chain:focus {
+        background-position: center -603px;
+    }
+    .section-editor .ui-tabs-nav .chat {
+        background-position: center -681px;
+    }
+    .section-editor .ui-tabs-nav .chat:active, .section-editor .ui-tabs-nav .chat:focus {
+        background-position: center -760px;
+    }
+    .navi-link1 {
+        background-position: center -846px;
+    }
+    .navi-link2 {
+        background-position:  center -929px;
+    }
+    .navi-link3 {
+        background-position: center -1004px;
+    }
+    .navi-inp {
+        background-position: -30px -1083px;
+    }
+    .section-navi .notice {
+        right: 24%;
+        top: 26%;
     }
 }
 @media all and (max-width: 729px) {
@@ -423,8 +677,8 @@
         height: 88px;
     }
     .section-navi .notice {
-        width: 1vw;
-        height: 1vw;
+        right: 31%;
+        top: 31%;
     }
     .col2 .section-related, .section-map, .section-tags {
         width: 100%;
@@ -480,37 +734,54 @@
         top: 40%;
     }
     .section-editor .ui-tabs-nav .speed {
-        background-position: center -17px;
+        background-position: center -21px;
     }
     .section-editor .ui-tabs-nav .speed:active, .section-editor .ui-tabs-nav .speed:focus {
-        background-position: center -95px;
+        background-position: center -98px;
     }
     .section-editor .ui-tabs-nav .doc {
-        background-position: center -172px;
+        background-position: center -176px;
     }
     .section-editor .ui-tabs-nav .doc:active, .section-editor .ui-tabs-nav .doc:focus {
-        background-position: center -252px;
+        background-position: center -256px;
     }
     .section-editor .ui-tabs-nav .landscape {
-        background-position: center -347px;
+        background-position: center -351px;
     }
     .section-editor .ui-tabs-nav .landscape:active, .section-editor .ui-tabs-nav .landscape:focus {
-        background-position: center -430px;
+        background-position: center -434px;
     }
     .section-editor .ui-tabs-nav .chain {
-        background-position: center -521px;
+        background-position: center -525px;
     }
     .section-editor .ui-tabs-nav .chain:active, .section-editor .ui-tabs-nav .chain:focus {
-        background-position: center -591px;
+        background-position: center -595px;
     }
     .section-editor .ui-tabs-nav .chat {
-        background-position: center -669px;
+        background-position: center -672px;
     }
     .section-editor .ui-tabs-nav .chat:active, .section-editor .ui-tabs-nav .chat:focus {
-        background-position: center -748px;
+        background-position: center -751px;
     }
     .editor-menu-button {
-        padding: 23px;
+        padding: 22px;
+    }
+    .navi-link1 {
+        background-position: center -836px;
+    }
+    .navi-link2 {
+        background-position: center -918px;
+    }
+    .navi-link3 {
+        background-position: center -993px;
+    }
+    .navi-inp {
+        background-position: -30px -1082px;
+    }
+}
+@media all and (max-width: 613px) {
+    .section-navi .notice {
+        right: 29%;
     }
 }
 @media all and (max-width: 590px) {
@@ -526,17 +797,9 @@
     .section-editor .ui-tabs-nav li:last-child {
         height: 220px;
     }
-    .navi-link1 {
-        background-position: center -836px;
-    }
-    .navi-link2 {
-        background-position: center -918px;
-    }
-    .navi-link3 {
-        background-position: center -993px;
-    }
-    .navi-inp {
-        background-position: -30px -1080px;
+    .section-navi .notice {
+        top: 36%;
+        right: 30%;
     }
 }
 @media all and (max-width: 549px) {
@@ -548,34 +811,34 @@
         left: 70px;
     }
     .section-editor .ui-tabs-nav .speed {
-        background-position: center -21px;
+        background-position: center -25px;
     }
     .section-editor .ui-tabs-nav .speed:active, .section-editor .ui-tabs-nav .speed:focus {
-        background-position: center -99px;
+        background-position: center -103px;
     }
     .section-editor .ui-tabs-nav .doc {
-        background-position: center -178px;
+        background-position: center -181px;
     }
     .section-editor .ui-tabs-nav .doc:active, .section-editor .ui-tabs-nav .doc:focus {
-        background-position: center -258px;
+        background-position: center -261px;
     }
     .section-editor .ui-tabs-nav .landscape {
-        background-position: center -352px;
+        background-position: center -356px;
     }
     .section-editor .ui-tabs-nav .landscape:active, .section-editor .ui-tabs-nav .landscape:focus {
-        background-position: center -435px;
+        background-position: center -439px;
     }
     .section-editor .ui-tabs-nav .chain {
-        background-position: center -526px;
+        background-position: center -530px;
     }
     .section-editor .ui-tabs-nav .chain:active, .section-editor .ui-tabs-nav .chain:focus {
-        background-position: center -596px;
+        background-position: center -600px;
     }
     .section-editor .ui-tabs-nav .chat {
-        background-position: center -675px;
+        background-position: center -679px;
     }
     .section-editor .ui-tabs-nav .chat:active, .section-editor .ui-tabs-nav .chat:focus {
-        background-position: center -754px;
+        background-position: center -760px;
     }
 }
 @media all and (max-width: 520px) {
@@ -586,8 +849,6 @@
         right: 86%;
     }
     .section-navi .notice {
-        width: 1.4vw;
-        height: 1.4vw;
         right: 26%;
         top: 30%;
     }
@@ -604,7 +865,7 @@
         background-position: center -999px;
     }
     .navi-inp {
-        background-position: -30px -1082px;
+        background-position: -32px -1086px;
     }
 }
 @media all and (max-width: 507px) {
@@ -644,24 +905,57 @@
         width: 56px;
         height: 56px;
     }
+    .ui-datepicker-prev {
+        background-position: 13px -1130px;
+    }
+    .ui-datepicker-next {
+        background-position: -56px -1130px;
+    }
     .cats-arrow {
         left: 28%;
     }
     .navi-link1 {
-        background-position: center -845px;
+        background-position: center -847px;
     }
     .navi-link2 {
-        background-position: center -927px;
+        background-position: center -929px;
     }
     .navi-link3 {
-        background-position: center -1002px;
-    }
-    .navi-inp {
-        background-position: -30px -1084px;
+        background-position: center -1004px;
     }
     .section-navi .notice {
         right: 24%;
         top: 28%;
+    }
+    .section-editor .ui-tabs-nav .speed {
+        background-position: center -27px;
+    }
+    .section-editor .ui-tabs-nav .speed:active, .section-editor .ui-tabs-nav .speed:focus {
+        background-position: center -105px;
+    }
+    .section-editor .ui-tabs-nav .doc {
+        background-position: center -183px;
+    }
+    .section-editor .ui-tabs-nav .doc:active, .section-editor .ui-tabs-nav .doc:focus {
+        background-position: center -263px;
+    }
+    .section-editor .ui-tabs-nav .landscape {
+        background-position: center -358px;
+    }
+    .section-editor .ui-tabs-nav .landscape:active, .section-editor .ui-tabs-nav .landscape:focus {
+        background-position: center -441px;
+    }
+    .section-editor .ui-tabs-nav .chain {
+        background-position: center -532px;
+    }
+    .section-editor .ui-tabs-nav .chain:active, .section-editor .ui-tabs-nav .chain:focus {
+        background-position: center -602px;
+    }
+    .section-editor .ui-tabs-nav .chat {
+        background-position: center -680px;
+    }
+    .section-editor .ui-tabs-nav .chat:active, .section-editor .ui-tabs-nav .chat:focus {
+        background-position: center -760px;
     }
 }
 @media all and (max-width: 469px) {
@@ -669,22 +963,22 @@
         padding: 21px;
     }
     .bold {
-        background-position: center -1257px;
+        background-position: center -1259px;
     }
     .italic {
-        background-position:  center -1304px;
+        background-position:  center -1306px;
     }
     .underlined {
-        background-position:  center -1351px;
+        background-position:  center -1353px;
     }
     .strike-through {
-        background-position:  center -1398px;
+        background-position:  center -1400px;
     }
     .unordered {
-        background-position:  center -1503px;
+        background-position:  center -1505px;
     }
     .ordered {
-        background-position:  center -1451px;
+        background-position:  center -1453px;
     }
 }
 @media all and (max-width: 459px) {
@@ -699,13 +993,12 @@
         height: 62px;
     }
     .section-navi .notice {
-        width: 1.4vw;
-        height: 1.4vw;
         right: 20%;
     }
-    .section-navi .notice {
-        width: 1.6vw;
-        height: 1.6vw;
+}
+@media all and (max-width: 447px) {
+    .editor-menu-button {
+        padding: 20px;
     }
 }
 @media all and (max-width: 440px) {
@@ -721,32 +1014,24 @@
     :-ms-input-placeholder {
         font-size: .86rem;
     }
-    .section-navi .notice {
-        width: 1.6vw;
-        height: 1.6vw;
-        right: 16%;
-    }
     .section-navi li {
         height: 60px;
     }
     .navi-link1 {
-        background-position: center -846.8px;
+        background-position: center -849px;
     }
     .navi-link2 {
-        background-position: center -929px;
+        background-position: center -932px;
     }
     .navi-link3 {
-        background-position: center -1004px;
-    }
-    .navi-inp {
-        background-position: -30px -1084px;
+        background-position: center -1007px;
     }
     .section-navi .notice {
         right: 19%;
         top: 27%;
     }
 }
-@media all and (max-width: 469px) {
+@media all and (max-width: 429px) {
     .editor-menu-button {
         padding: 19px;
     }
@@ -764,6 +1049,36 @@
     .inner {
         left: 60px;
     }
+    .section-editor .ui-tabs-nav .speed {
+        background-position: center -34px;
+    }
+    .section-editor .ui-tabs-nav .speed:active, .section-editor .ui-tabs-nav .speed:focus {
+        background-position: center -112px;
+    }
+    .section-editor .ui-tabs-nav .doc {
+        background-position: center -190px;
+    }
+    .section-editor .ui-tabs-nav .doc:active, .section-editor .ui-tabs-nav .doc:focus {
+        background-position: center -270px;
+    }
+    .section-editor .ui-tabs-nav .landscape {
+        background-position: center -365px;
+    }
+    .section-editor .ui-tabs-nav .landscape:active, .section-editor .ui-tabs-nav .landscape:focus {
+        background-position: center -448px;
+    }
+    .section-editor .ui-tabs-nav .chain {
+        background-position: center -538px;
+    }
+    .section-editor .ui-tabs-nav .chain:active, .section-editor .ui-tabs-nav .chain:focus {
+        background-position: center -608px;
+    }
+    .section-editor .ui-tabs-nav .chat {
+        background-position: center -685px;
+    }
+    .section-editor .ui-tabs-nav .chat:active, .section-editor .ui-tabs-nav .chat:focus {
+        background-position: center -765px;
+    }
 }
 @media all and (max-width: 410px) {
     .section-navi li {
@@ -773,16 +1088,39 @@
         width: 94%;
     }
     .navi-link1 {
-        background-position: center -849px;
+        background-position: center -852px;
     }
     .navi-link2 {
-        background-position: center -931.8px;
+        background-position: center -934px;
     }
     .navi-link3 {
-        background-position: center -1006.9px;
+        background-position: center -1010px;
     }
     .navi-inp {
-        background-position: -30px -1084px;
+        background-position: -32px -1088px;
+    }
+}
+@media all and (max-width: 402px) {
+    .editor-menu-button {
+        padding: 17px;
+    }
+    .bold {
+        background-position: center -1262px;
+    }
+    .italic {
+        background-position:  center -1309px;
+    }
+    .underlined {
+        background-position:  center -1356px;
+    }
+    .strike-through {
+        background-position:  center -1403px;
+    }
+    .unordered {
+        background-position:  center -1508px;
+    }
+    .ordered {
+        background-position:  center -1456px;
     }
 }
 @media all and (max-width: 390px) {
@@ -809,20 +1147,18 @@
         height: 200px;
     }
     .navi-link1 {
-        background-position: center -851px;
+        background-position: center -853px;
     }
     .navi-link2 {
-        background-position: center -934px;
+        background-position: center -936px;
     }
     .navi-link3 {
-        background-position: center -1008.9px;
+        background-position: center -1011px;
     }
     .navi-inp {
-        background-position: -30px -1086px;
+        background-position: -32px -1089px;
     }
     .section-navi .notice {
-        width: 1.8vw;
-        height: 1.8vw;
         right: 18%;
         top: 22%;
     }
@@ -833,40 +1169,17 @@
         width: 50px;
         height: 50px;
     }
+    .ui-datepicker-prev {
+        background-position: 10px -1133px;
+    }
+    .ui-datepicker-next {
+        background-position: -59px -1133px;
+    }
     .section-pop .o-flow {
         padding: 8% 1%;
     }
     .section-pop .o-flow div:first-child {
         width: 22%;
-    }
-    .ui-datepicker-prev {
-        background-position: 10px -1130px;
-    }
-    .ui-datepicker-next {
-        background-position: -58px -1128px;
-    }
-}
-@media all and (max-width: 381px) {
-    .editor-menu-button {
-        padding: 17px;
-    }
-    .bold {
-        background-position: center -1259px;
-    }
-    .italic {
-        background-position:  center -1305px;
-    }
-    .underlined {
-        background-position:  center -1353px;
-    }
-    .strike-through {
-        background-position:  center -1400px;
-    }
-    .unordered {
-        background-position:  center -1505px;
-    }
-    .ordered {
-        background-position:  center -1453px;
     }
 }
 @media all and (max-width: 380px) {
@@ -922,8 +1235,51 @@
     .navi-inp {
         background-position: -30px -1088.6px;
     }
+    .section-editor .ui-tabs-nav .speed {
+        background-position: 15px -1604px;
+    }
+    .section-editor .ui-tabs-nav .speed:active, .section-editor .ui-tabs-nav .speed:focus {
+        background-position: 14px -1661px;
+    }
+    .section-editor .ui-tabs-nav .doc {
+        background-position: 14px -1708px;
+    }
+    .section-editor .ui-tabs-nav .doc:active, .section-editor .ui-tabs-nav .doc:focus {
+        background-position: 14px -1760px;
+    }
+    .section-editor .ui-tabs-nav .landscape {
+        background-position: 11px -1812px;
+    }
+    .section-editor .ui-tabs-nav .landscape:active, .section-editor .ui-tabs-nav .landscape:focus {
+        background-position: -62px -1812px;
+    }
+    .section-editor .ui-tabs-nav .chain {
+        background-position: -60px -1604px;
+    }
+    .section-editor .ui-tabs-nav .chain:active, .section-editor .ui-tabs-nav .chain:focus {
+        background-position: -60px -1658px;
+    }
+    .section-editor .ui-tabs-nav .chat {
+        background-position: -60px -1708px;
+    }
+    .section-editor .ui-tabs-nav .chat:active, .section-editor .ui-tabs-nav .chat:focus {
+        background-position: -58px -1766px;
+    }
+    .navi-link1 {
+        background-position: center -1854px;
+    }
+    .navi-link2 {
+        background-position: center -1910px;
+    }
+    .navi-link3 {
+        background-position: center -1962px;
+    }
+    .navi-inp {
+        background-position: -38px -1586px;
+    }
     .section-navi .notice {
-        top: 20%;
+        right: 23%;
+        top: 23%;
     }
 }
 @media all and (max-width: 350px) {
@@ -938,13 +1294,43 @@
         left: 40px;
     }
     .navi-link1 {
-        background-position: center -855px;
+        background-position: center -1856px;
     }
     .navi-link2 {
-        background-position: center -937px;
+        background-position: center -1912px;
     }
     .navi-link3 {
-        background-position: center -1012.9px;
+        background-position: center -1964px;
+    }
+    .section-editor .ui-tabs-nav .speed {
+        background-position: 10px -1608px;
+    }
+    .section-editor .ui-tabs-nav .speed:active, .section-editor .ui-tabs-nav .speed:focus {
+        background-position: 9px -1665px;
+    }
+    .section-editor .ui-tabs-nav .doc {
+        background-position: 9px -1712px;
+    }
+    .section-editor .ui-tabs-nav .doc:active, .section-editor .ui-tabs-nav .doc:focus {
+        background-position: 9px -1764px;
+    }
+    .section-editor .ui-tabs-nav .landscape {
+        background-position: 6px -1816px;
+    }
+    .section-editor .ui-tabs-nav .landscape:active, .section-editor .ui-tabs-nav .landscape:focus {
+        background-position: -67px -1816px;
+    }
+    .section-editor .ui-tabs-nav .chain {
+        background-position: -65px -1610px;
+    }
+    .section-editor .ui-tabs-nav .chain:active, .section-editor .ui-tabs-nav .chain:focus {
+        background-position: -65px -1663px;
+    }
+    .section-editor .ui-tabs-nav .chat {
+        background-position: -65px -1714px;
+    }
+    .section-editor .ui-tabs-nav .chat:active, .section-editor .ui-tabs-nav .chat:focus {
+        background-position: -63px -1772px;
     }
 }
 @media all and (max-width: 340px) {

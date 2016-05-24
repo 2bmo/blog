@@ -1,11 +1,3 @@
-/*
-#f97e76 - red
-#e9f0f4 - light grey (bg)
-#c1cfd9 - dark grey
-#2e3641 - dark
-#a8bd44 - green
-#fafcfd - hover bg
-*/
 body {
     margin: 0;
     padding: 0;
@@ -269,22 +261,22 @@ h2 {
     background: url("img/sprite.svg") no-repeat center -738px #fff;
 }
 .bold {
-    background: url("img/sprite.svg") no-repeat center -1252px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -1258px #2e3641;
 }
 .italic {
-    background: url("img/sprite.svg") no-repeat center -1299px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -1305px #2e3641;
 }
 .underlined {
-    background: url("img/sprite.svg") no-repeat center -1346px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -1352px #2e3641;
 }
 .strike-through {
-    background: url("img/sprite.svg") no-repeat center -1393px #2e3641;
-}
-.ordered {
-    background: url("img/sprite.svg") no-repeat center -1446px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -1399px #2e3641;
 }
 .unordered {
-    background: url("img/sprite.svg") no-repeat center -1499px #2e3641;
+    background: url("img/sprite.svg") no-repeat center -1504px #2e3641;
+}
+.ordered {
+    background: url("img/sprite.svg") no-repeat center -1452px #2e3641;
 }
 .section-navi li {                              /* section NAVI */
     width: 16.6%;
@@ -320,8 +312,8 @@ h2 {
 }
 .section-navi .notice {
     background: #f97e76;
-    width: 0.4vw;
-    height: 0.4vw;
+    width: 8px;
+    height: 8px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -425,12 +417,12 @@ h2 {
 .ui-datepicker-prev {
     float: left;
     border-right: solid 1px #49525d;
-    background: url('img/sprite.svg') no-repeat 14px -1125px;
+    background: url('img/sprite.svg') no-repeat 14px -1127px;
 }
 .ui-datepicker-next {
     float: right;
     border-left: solid 1px #49525d;
-    background: url('img/sprite.svg') no-repeat -54px -1126px;
+    background: url('img/sprite.svg') no-repeat -54px -1127px;
 }
 .ui-datepicker-prev, .ui-datepicker-next {
     width: 42px;
@@ -444,6 +436,26 @@ h2 {
 #section-calendar .ui-datepicker-title, .ui-datepicker thead {
     background: #2e3641;
     color: #e9f0f4;
+}
+.ui-datepicker tr {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.ui-datepicker thead th, .ui-datepicker tbody td {
+    width: 14.3%;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ui-datepicker tbody a {
+    width: 100%;
 }
 thead span {
     font-weight: 400;
@@ -460,7 +472,7 @@ thead span {
 .ui-datepicker tbody .ui-state-hover {
     background: #2e3641;
 }
-.ui-datepicker .ui-datepicker-unselectable .ui-state-default {
+.ui-datepicker .ui-datepicker-unselectable .ui-state-default, .ui-datepicker .ui-datepicker-unselectable .ui-state-hover {
     color: #fbb2ad;
 }
 .ui-tabs-nav li {                                     /* POP */
@@ -595,7 +607,7 @@ thead span {
     border: 6px solid transparent;
     border-top: 6px solid #fff;
     left: 6px;
-    top: 0em;
+    top: 0;
 }
 .cats-toggle, .recent-toggle {
     position: absolute;
